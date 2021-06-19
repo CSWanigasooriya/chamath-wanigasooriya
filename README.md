@@ -1,1 +1,1 @@
-# chamath-wanigasooriya
+# Chamath Wanigasooriya
