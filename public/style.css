@@ -1,6 +1,6 @@
 html,
 body {
-  min-height: 100%;
+  min-width: 100%;
 }
 
 body {
@@ -26,6 +26,7 @@ body {
 
 main {
   flex: 1 0 auto;
+  margin-top: -64px;
 }
 
 header,
@@ -39,6 +40,10 @@ footer {
   main,
   footer {
     padding-left: 0;
+  }
+
+  main {
+    margin-top: 10px !important;
   }
 }
 
@@ -63,10 +68,6 @@ footer {
   border-bottom-right-radius: 2em !important;
 }
 
-.toc-wrapper {
-  position: fixed;
-}
-
 #banner-btn {
   margin-right: 1em;
   margin-bottom: 1em;
@@ -75,4 +76,44 @@ footer {
 
 div {
   word-wrap: break-word;
+}
+
+.card {
+  border-radius: 1em;
+}
+
+.rounded-btn {
+  border-radius: 2em !important;
+}
+
+.rounded-item {
+  border-radius: 1em !important;
+}
+
+.carousel-item {
+  border-radius: 1em;
+}
+
+.carousel-item p {
+  padding: 1em;
+}
+
+h5 span {
+  font-size: medium;
+}
+
+.pin-top {
+  position: relative;
+}
+
+.pin-bottom {
+  position: relative;
+}
+
+.pinned {
+  position: fixed !important;
+}
+
+.confident li {
+  list-style-type: circle !important;
 }
